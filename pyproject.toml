@@ -1,0 +1,22 @@
+[project]
+name = "agent"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "yu-rovikov",email = "yury.yarovikov@gmail.com"}
+]
+readme = "README.md"
+requires-python = "<4.0.0,>=3.11"
+dependencies = [
+    "langgraph (>=1.0.5,<2.0.0)",
+    "aiohttp (>=3.13.2,<4.0.0)",
+    "python-chess (>=1.999,<2.0)",
+    "langchain-openai (>=1.1.6,<2.0.0)",
+    "python-dotenv (>=1.2.1,<2.0.0)",
+    "jinja2 (>=3.1.6,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
